@@ -1,0 +1,59 @@
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Adjust this property as needed */
+  gap: 20px; /* Adjust the gap between cards as needed */
+  flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  @media (max-width: 675px) {
+    flex-direction: column;
+  }
+}
+
+.container {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align horizontally */
+  justify-content: center; /* Center-align vertically */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://th.bing.com/th/id/OIP.Z6N16AsqBvbQUeOcvVExmQHaFj?w=219&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+  /* Adjust the height of the container as needed */
+}
+
+.align {
+  text-align: center; /* Center-align text within the 'align' div */
+  /* Adjust the margin as needed */
+}
+
+/* Add additional styling as needed */
+
+.card {
+  width: calc(33.33% - 20px); /* Adjust the width and margin as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  @media (max-width: 675px) {
+    width: 100%;
+  }
+}
+
+/* Add additional styling for card content if needed */
+
+.cancel {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.h2 {
+  text-align: center;
+}
+
+.cancel1 {
+  text-align: center;
+  color: red;
+}

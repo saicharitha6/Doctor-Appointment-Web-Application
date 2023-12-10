@@ -1,0 +1,125 @@
+
+
+.heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  .head-div {
+
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .linku {
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3 {
+    height: 4rem;
+    width: 10rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .btn1 {
+    background-color: rgb(106, 140, 151);
+  }
+  
+  .btn2 {
+    background-color: #72bda3;
+  }
+  
+  .btn3 {
+    background-color: #c4e7a2;
+  }
+  
+  .divv {
+    width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f7f7f7;
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+  }
+  
+  .p {
+    font-size: 1.5rem;
+    font-family: 'Bodoni MT';
+    margin: 0;
+  }
+  
+  .appoint-btn,
+  .appoint-cnc,
+  .appoint-rep {
+    height: 3rem;
+    width: 8rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 6px;
+  }
+  
+  .appoint-btn {
+    background-color: rgb(26, 2, 58);
+  }
+  
+  .appoint-cnc {
+    background-color: darkred;
+  }
+  
+  .appoint-rep {
+    background-color: darkslateblue;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .down-bg {
+    background-image: url("https://c1.wallpaperflare.com/preview/211/259/780/background-white-sand.jpg");
+    background-size: cover;
+    height: fit-content;
+    padding-bottom: 3rem;
+    border-radius: 0.3rem;
+  }
+  

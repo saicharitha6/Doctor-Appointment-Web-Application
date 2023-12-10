@@ -1,0 +1,79 @@
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftContainer {
+  margin-bottom: 20px;
+}
+
+.doctorImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.doctorInfo {
+  margin-bottom: 20px;
+}
+
+.confirmationHeading {
+  color: #007acc;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.confirmationHeading p {
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.color {
+  color: red;
+}
+.mid {
+  text-align: center;
+}
+
+button{
+    width: 100px;
+    background-color: green;
+    color: white;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between form groups */
+  }
+
+.form-label {
+    margin-right: 10px;
+  }
+  
+  .form-select {
+    width: 100%; /* Adjust as needed */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

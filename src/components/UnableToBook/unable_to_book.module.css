@@ -1,0 +1,116 @@
+
+
+.doctor-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 40px;
+  background-color: #e8e7e7;
+
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.doctor-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.doctor-details {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #007bff;
+}
+.heading2{
+  font-size: 34px;
+  margin: 0;
+  color: #007bff; 
+}
+p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.appointment-options {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  margin-right: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* ... Your existing styles ... */
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Media query for max-width 360px */
+@media (max-width: 360px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* New class for the button */
+.custom-button {
+  padding: 6px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  margin-right: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}

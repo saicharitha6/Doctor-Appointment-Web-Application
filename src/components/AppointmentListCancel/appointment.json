@@ -1,0 +1,71 @@
+{
+  "patients": [
+    {
+      "pid": 1,
+      "name": "John Doe",
+      "age": 30,
+      "gender": "Male",
+      "weight": 70,
+      "appointments": [
+        {
+          "id": 101,
+          "name": "Dr. Smith",
+          "appointmentDate": "2023-11-15",
+          "appointmentTime": "10:00 AM",
+          "complaint": "Routine Checkup",
+          "token": "#1"
+        },
+        {
+          "id": 102,
+          "appointmentDate": "2023-11-20",
+          "appointmentTime": "2:30 PM",
+          "complaint": "Flu Symptoms",
+          "token": "#19"
+        }
+      ]
+    },
+    {
+      "pid": 2,
+      "name": "Jane Smith",
+      "age": 25,
+      "gender": "Female",
+      "weight": 70,
+      "appointments": [
+        {
+          "id": 101,
+          "appointmentDate": "2023-11-18",
+          "appointmentTime": "11:30 AM",
+          "complaint": "Headache",
+          "token": "#11"
+        },
+        {
+          "id": 103,
+          "appointmentDate": "2023-11-22",
+          "appointmentTime": "4:00 PM",
+          "complaint": "Allergies",
+          "token": "#12"
+        }
+      ]
+    }
+  ],
+  "doctors": [
+    {
+      "id": 101,
+      "name": "Dr. Smith",
+      "specialization": "General Practitioner",
+      "experience": 8
+    },
+    {
+      "id": 102,
+      "name": "Dr. Johnson",
+      "specialization": "Cardiologist",
+      "experience": 12
+    },
+    {
+      "id": 103,
+      "name": "Dr. Wilson",
+      "specialization": "Dermatologist",
+      "experience": 10
+    }
+  ]
+}

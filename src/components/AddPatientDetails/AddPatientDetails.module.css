@@ -1,0 +1,53 @@
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftContainer {
+    margin-bottom: 20px;
+  }
+  
+  .doctorImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+  .doctorInfo {
+    margin-bottom: 20px;
+  }
+  
+
+  .form label{
+    align-items: flex-start;
+    text-align:left;
+  }
+  
+  @media(max-width: 400px) {
+    .contentContainer {
+      flex-direction: column;
+      
+    }
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  

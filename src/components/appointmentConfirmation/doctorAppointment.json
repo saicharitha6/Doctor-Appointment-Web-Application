@@ -1,0 +1,35 @@
+{
+  "patientName": "John Doe",
+  "age": 35,
+  "sex": "Male",
+  "weight": 70,
+  "consultations": [
+    {
+      "doctorName": "Dr. Smith",
+      "specialization": "Cardiologist",
+      "appointmentDate": "2023-11-09",
+      "appointmentTime": "10:00 AM",
+      "complaint": "Heart palpitations",
+      "experience": 15,
+      "token": "#12"
+    },
+    {
+      "doctorName": "Dr. Johnson",
+      "specialization": "Orthopedic Surgeon",
+      "appointmentDate": "2023-11-15",
+      "appointmentTime": "2:30 PM",
+      "complaint": "Knee pain",
+      "experience": 10,
+      "token": "#11"
+    },
+    {
+      "doctorName": "Dr. Wilson",
+      "specialization": "Dermatologist",
+      "appointmentDate": "2023-11-20",
+      "appointmentTime": "11:15 AM",
+      "complaint": "Skin rash",
+      "experience": 17,
+      "token": "#10"
+    }
+  ]
+}

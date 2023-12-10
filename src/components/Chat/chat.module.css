@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin-top: 25px;
+}
+
+.dummy-chat {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.dummy-chat h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.DName {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.details {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.details p {
+  margin-bottom: 10px;
+}
+
+.issue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chat-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.chaat-img,
+.chat-img-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.chat-img-2 {
+  margin-bottom: 29px;
+}
+
+
+.info {
+  margin-top: 20px;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+.message {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.message-sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  font-size: 16px;
+  color: #444;
+}
+
+
+@media (max-width: 768px) {
+  .dummy-chat {
+    max-width: 90%;
+  }
+  .profile{
+    flex-direction: column;
+    gap: 20px;
+  }
+}

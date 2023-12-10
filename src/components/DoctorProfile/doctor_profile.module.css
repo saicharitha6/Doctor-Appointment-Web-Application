@@ -1,0 +1,84 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+}
+.doctor-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f5f5f5; 
+  justify-content: center; 
+  padding: 50px;
+  margin: 0%;
+  align-items: center;
+  border-radius: 10pz;
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+.doctor-details {
+  align-items: center;
+}
+.doctor-name {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.doctor-specialty {
+  color: #555;
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.doctor-description {
+  color: #777;
+}
+
+.services {
+  margin: 0%;
+  padding-top: 20px;
+}
+.h3 {
+  font-size: larger;
+  size: 20px;
+  color: #007bff;
+  text-decoration: solid;
+  font-weight: 100px;
+  margin-bottom: 10px;
+}
+.avail {
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+.custom-button {
+  padding: 6px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  margin-right: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}

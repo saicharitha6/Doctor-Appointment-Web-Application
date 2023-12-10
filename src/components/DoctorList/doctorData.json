@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialization": "Cardiologist",
+      "image": "doctor.jpg",
+      "experience":10,
+      "description": "Dr. John Doe is a board-certified cardiologist with 10+ years of experience in treating cardiovascular diseases."
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "specialization": "Dermatologist",
+      "image": "doctor.jpg",
+      "experience":10,
+      "description": "Dr. Jane Smith is a dermatologist with expertise in skin care and dermatological procedures."
+    },
+    {
+      "id": 3,
+      "name": "Dr. sai",
+      "specialization": "neurologist",
+      "image": "doctor.jpg",
+      "experience":10,
+      "description": "Dr. Jane Smith is a dermatologist with expertise in skin care and dermatological procedures."
+    }
+  ]
+  
